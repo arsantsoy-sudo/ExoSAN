@@ -1,0 +1,4 @@
+model,split,balanced_accuracy,macro_f1
+bls,val,0.73333,0.72844
+fourier,val,0.55556,0.52543
+fusion,val,0.75889,0.75464

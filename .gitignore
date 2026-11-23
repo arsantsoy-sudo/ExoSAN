@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local configuration
+config.py
+.env
+.env.*
+
+# Large astronomical data
+*.fits
+*.npz
+
+# Model weights
+*.pt
+*.pth
+*.joblib
+
+# Temporary files
+*.log

@@ -1,7 +1,7 @@
 # ExoSAN
 ### Exoplanet Signal Analysis Network
 
-**Author:** Arsan Tsoi  
+**Author:** Arsan Tsoy 
 **Scientific Supervisor:** Дархан Шадыкул Кылышбекулы
 
 ---

@@ -3,6 +3,9 @@
 
 **Author:** Arsan Tsoy 
 
+
+**Coauthor:** Darkhan Shadykul
+
 **Scientific Supervisor:** Darkhan Shadykul
 
 ---

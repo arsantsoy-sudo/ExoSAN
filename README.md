@@ -2,7 +2,8 @@
 ### Exoplanet Signal Analysis Network
 
 **Author:** Arsan Tsoy 
-**Scientific Supervisor:** Дархан Шадыкул Кылышбекулы
+
+**Scientific Supervisor:** Darkhan Shadykul
 
 ---
 

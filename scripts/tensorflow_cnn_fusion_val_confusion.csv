@@ -1,0 +1,6 @@
+true/predicted,planet,false_positive,eclipsing_binary,stellar_variability,quiet
+planet,130,21,2,18,9
+false_positive,9,102,15,16,38
+eclipsing_binary,6,19,151,4,0
+stellar_variability,4,15,0,146,15
+quiet,0,9,1,15,155

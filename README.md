@@ -102,13 +102,36 @@ python -m pip install -r requirements.txt
 
 **Note:** The complete pipeline requires Kepler FITS files that are not included in this repository. Some scripts also depend on local configuration paths that must be adapted before running the experiments independently.
 
-## Results and Ongoing Work
+## Running the TensorFlow CNN
 
-The current repository contains experimental results for Random Forest, CNN-BLS, and CNN-Fusion models.
+<img width="1620" height="1260" alt="tensorflow_cnn_fusion_val_confusion" src="https://github.com/user-attachments/assets/de2092c9-4bbd-4a34-b5cf-5df2b1f1adfb" />
 
-Evaluation reports are available in [`reports/`](reports/). The main research question is whether combining BLS and Fourier features provides a measurable improvement in classification performance.
 
-Future work will focus on validating these results, analyzing misclassified objects, and improving the reproducibility of the pipeline.
+Install the TensorFlow dependencies:
+
+python -m pip install -r requirements-tf.txt
+
+Train CNN-Fusion:
+
+python scripts/cnn_model.py --mode fusion --epochs 60
+
+Evaluate the trained model on the validation set:
+
+python scripts/11_cnn_evaluate.py --mode fusion --split val
+
+Evaluation and Results
+
+The evaluation script generates confusion matrices, per-class F1 scores, training curves, and prediction tables.
+
+Results are saved in reports/, while model checkpoints are stored locally in models/.
+
+The full experiments require preprocessed Kepler data in data/features/, which are not included in this repository.
+
+The purpose of comparing CNN-BLS and CNN-Fusion is to test whether Fourier-derived features improve astrophysical signal classification.
+
+<img width="1980" height="720" alt="tensorflow_cnn_fusion_history" src="https://github.com/user-attachments/assets/1588524c-797b-4202-af6e-881a6e09a79f" />
+
+
 
 ## Data Sources
 

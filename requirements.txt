@@ -8,3 +8,4 @@ lightkurve
 astroquery
 torch
 joblib
+tensorflow
